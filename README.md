@@ -1,2 +1,2 @@
-# Brainstorming-Pong-Featuers-and-Easter-Eggs
+# Brainstorming-Pong-Features-and-Easter-Eggs
 Main Teaching Project
