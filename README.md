@@ -6,6 +6,36 @@ Main Teaching Project
 Table of Contents
 - Brainstorming Start, <a href="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs#brainstorming-start">Click Here</a>
 - Standard Features and General Play, <a href="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs#1972-vintage-standard-features-and-general-play-procedural-pong">Click Here</a>
+- Review Basic Introductory Processing-Java Code for building Pong Standard Features, <a href="">Click Here when available</a>
+
+---
+
+https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments
+- Symmetrical Divisions of Pong, by rectangles and primitive data
+- Drawing and Moving a Ball
+  - Bouncing on all four sides
+  - Bounce stays on the screen (leads to deforming procedure)
+  - Bouncing on Top and Bottom, "stuck" on one side (i.e. dimensions of the net)
+  - "Stuck" on the other side (i.e. dimensions of the net)
+- Drawing a Paddle and how it mixes with the dimensions of the net
+  - Movement so it is seen entirely on the screen
+  - Bounce off the Paddle
+- Drawing Rectangles and text for Scoreboard
+  - Casting Score related to "being stuck"
+  - Get one side working, then the other
+- Splash Screen with basic text and instructions
+  - Click on Window to activate (OS Feature)
+    - "First one to 5 wins"
+    - One Player or Two Player Button (changes instructions below)
+    - Left Paddle controlled by ...
+    - Right Paddle controlled by ...
+    - Press ??? to stop the game any time and close the app
+    - Press ??? to begin
+  - After WIN, Splash Screen
+    - "You won"
+    - Press ??? to start another game
+    - Option to change to one or two player (go back to first splash screen)
+    - Press ??? to Quit the game
 
 ---
 
