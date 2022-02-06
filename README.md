@@ -1,9 +1,11 @@
-# Brainstorming-Pong-Features-and-Easter-Eggs
+# 1972 Vintage Pong Features and Easter Eggs
 Main Teaching Project
 
 **UNDER CONSTRUCTION**
 
 Table of Contents
+- Brainstorming Start, <a herf="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs#brainstorming-start">Click Here</a>
+- Standard Features and General Play, <a herf="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs#1972-vintage-standard-features-and-general-play-procedural-pong">Click Here</a>
 
 ---
 
