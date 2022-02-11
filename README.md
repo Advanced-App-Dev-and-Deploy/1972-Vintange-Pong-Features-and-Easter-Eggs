@@ -14,6 +14,7 @@ https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments
 - Symmetrical Divisions of Pong, by rectangles and primitive data
 - Drawing and Moving a Ball
   - Bouncing on all four sides
+  - Ball moves in all directions
   - Bounce stays on the screen (leads to deforming procedure)
   - Bouncing on Top and Bottom, "stuck" on one side (i.e. dimensions of the net)
   - "Stuck" on the other side (i.e. dimensions of the net)
