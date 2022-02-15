@@ -20,7 +20,12 @@ https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments
   - "Stuck" on the other side (i.e. dimensions of the net)
 - Drawing a Paddle and how it mixes with the dimensions of the net
   - Movement so it is seen entirely on the screen
+    - Paddle does not go off the screen
   - Bounce off the Paddle
+  - Step wise movement
+  - Smooth movement, plus stop key
+  - Speed of Paddle based on user input (NOOB, Regular, God-Mode)
+  - Apply lesson to increasing ball speed and other Easter eggs
 - Drawing Rectangles and text for Scoreboard
   - Casting Score related to "being stuck"
   - Get one side working, then the other
