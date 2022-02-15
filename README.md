@@ -18,12 +18,13 @@ https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments
   - Bounce stays on the screen (leads to deforming procedure)
   - Bouncing on Top and Bottom, "stuck" on one side (i.e. dimensions of the net)
   - "Stuck" on the other side (i.e. dimensions of the net)
-- Drawing a Paddle and how it mixes with the dimensions of the net
-  - Movement so it is seen entirely on the screen
+- Drawing a Paddle and how it mixes with the dimensions of the net and the ball
+  - Movement UP & DOWN, seen entirely on the screen
+    - Step wise movement, stop is built in
     - Paddle does not go off the screen
-  - Bounce off the Paddle
-  - Step wise movement
   - Smooth movement, plus stop key
+  - Bounce off the Paddle
+    - Note: as ball gets faster, the paddle should get wider (or the space before the net to enable to bounce if ball is skipping space to appear faster)
   - Speed of Paddle based on user input (NOOB, Regular, God-Mode)
   - Apply lesson to increasing ball speed and other Easter eggs
 - Drawing Rectangles and text for Scoreboard
