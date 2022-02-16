@@ -11,6 +11,10 @@ Table of Contents
 ---
 
 https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments
+
+To use these "snapshots"
+- Read the code, figure out what has been added or changed
+
 - Symmetrical Divisions of Pong, by rectangles and primitive data using Display Geometry
 - Drawing and Moving a Ball
   - Bouncing on all four sides
