@@ -5,7 +5,7 @@ void leftPaddleDraw() {
   leftPaddleStart(); //Might have to move outside draw()
   //
   if ( yLeftPaddle < height*0) yLeftPaddle = height*0;
-  if ( yLeftPaddle+heightPaddle > height) yLeftPaddle = height;
+  if ( yLeftPaddle+heightPaddle > height) yLeftPaddle = height-heightPaddle; // if yLeftPaddle=height, hidden bug
   //
 }//End leftPaddle
 

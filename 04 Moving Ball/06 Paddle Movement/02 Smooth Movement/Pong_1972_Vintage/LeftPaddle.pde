@@ -17,6 +17,7 @@ void leftPaddleDraw() {
 void leftPaddleKeyPressed() {
   //Left Paddle: 'W', 'S', 'D' Keys
   //Note: two variables true is a Logical Conflict for Paddle Movement
+  //Paper & Pencil: true tables
   if ( key=='W' || key=='w' ) {
     leftPaddleUP=true;
     leftPaddleDOWN=false;

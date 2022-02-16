@@ -15,6 +15,8 @@ void rightPaddleDraw() {
 
 void rightPaddleKeyPressed() {
   //Right Paddle: UP, DOWN, LEFT Arrow Keys
+  //Note: two variables true is a Logical Conflict for Paddle Movement
+  //Paper & Pencil: true tables
   if ( key==CODED && keyCode==UP ) {
     rightPaddleUP=true;
     rightPaddleDOWN=false;
