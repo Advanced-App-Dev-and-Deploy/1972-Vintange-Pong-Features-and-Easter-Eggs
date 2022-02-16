@@ -13,6 +13,8 @@ void rightPaddleKeyPressed() {
   //Right Paddle: ARROW Keys
   if ( key==CODED && keyCode==UP ) yRightPaddle -= rightPaddleSpeed ; //yRightPaddle=yRightPaddle-1, yRightPaddle--
   if ( key==CODED && keyCode==DOWN ) yRightPaddle += rightPaddleSpeed;
+  //Note: this method has a coded bug: you must spam the key but only one key-stroke, or person, can press at one time
+  //Note: becomes very noticable
 }//End rightPaddlekeyPressed
 
 void rightPaddleStart() {

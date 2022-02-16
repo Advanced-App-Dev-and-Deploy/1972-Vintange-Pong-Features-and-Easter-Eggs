@@ -13,6 +13,8 @@ void leftPaddleKeyPressed() {
   //Left Paddle: 'W' & 'S' Keys
   if ( key=='W' || key=='w' ) yLeftPaddle -= leftPaddleSpeed ; //yRightPaddle=yRightPaddle-1, yRightPaddle--
   if ( key=='S' || key=='s' ) yLeftPaddle += leftPaddleSpeed;
+  //Note: this method has a coded bug: you must spam the key but only one key-stroke, or person, can press at one time
+  //Note: becomes very noticable
 }//End rightPaddlekeyPressed
 
 void leftPaddleStart() {
