@@ -30,6 +30,7 @@ To use these "snapshots"
   - Bounce off the Paddle
     - Note: as ball gets faster, the paddle should get wider (or the space before the net to enable to bounce if ball is skipping space to appear faster)
   - Speed of Paddle based on user input (NOOB, Regular, God-Mode)
+    - Note: this begins to introduce Splash Screens and setup screens
   - Apply lesson to increasing ball speed and other Easter eggs
 - Drawing Rectangles and text for Scoreboard
   - Casting Score related to "being stuck"
