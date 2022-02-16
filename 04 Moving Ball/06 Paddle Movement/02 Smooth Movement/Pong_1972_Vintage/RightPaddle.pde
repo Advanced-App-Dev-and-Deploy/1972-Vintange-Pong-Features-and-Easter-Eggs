@@ -6,11 +6,10 @@ void rightPaddleDraw() {
   rightPaddleStart();
   //
   if ( yRightPaddle < height*0) yRightPaddle = height*0;
-  if ( yRightPaddle+heightPaddle > height) yRightPaddle = height;
+  if ( yRightPaddle+heightPaddle > height) yRightPaddle = height-heightPaddle; //if yRightPaddle=height, hidden bug
   // 
   if ( rightPaddleUP==true ) yRightPaddle -= rightPaddleSpeed ; //yRightPaddle=yRightPaddle-1, yRightPaddle--
   if ( rightPaddleDOWN==true ) yRightPaddle += rightPaddleSpeed ;
-  //Note: this method creates a bug when it reaches the bottom of the screen
   //
 }//End rightPaddle
 

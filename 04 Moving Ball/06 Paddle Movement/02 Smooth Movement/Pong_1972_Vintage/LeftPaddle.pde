@@ -5,8 +5,8 @@ Boolean leftPaddleUP=false, leftPaddleDOWN=false;
 void leftPaddleDraw() {
   leftPaddleStart(); //Might have to move outside draw()
   //
-  if ( yLeftPaddle < height*0) yLeftPaddle = height*0;
-  if ( yLeftPaddle+heightPaddle > height) yLeftPaddle = height;
+  if ( yLeftPaddle <= height*0) yLeftPaddle = height*0;
+  if ( yLeftPaddle+heightPaddle >= height) yLeftPaddle = height-heightPaddle; // if yLeftPaddle=height, hidden bug
   //
   if ( leftPaddleUP==true ) yLeftPaddle -= leftPaddleSpeed ; //yLeftPaddle=yLeftPaddle-1, yLeftPaddle--
   if ( leftPaddleDOWN==true ) yLeftPaddle += leftPaddleSpeed ;
