@@ -1,5 +1,6 @@
 //Global Variable
 int leftPaddleSpeed = 1;
+Boolean leftPaddleUP=false, leftPaddleDOWN=false;
 
 void leftPaddleDraw() {
   leftPaddleStart(); //Might have to move outside draw()
@@ -7,13 +8,29 @@ void leftPaddleDraw() {
   if ( yLeftPaddle < height*0) yLeftPaddle = height*0;
   if ( yLeftPaddle+heightPaddle > height) yLeftPaddle = height;
   //
+  if ( leftPaddleUP==true ) yLeftPaddle -= leftPaddleSpeed ; //yLeftPaddle=yLeftPaddle-1, yLeftPaddle--
+  if ( leftPaddleDOWN==true ) yLeftPaddle += leftPaddleSpeed ;
+  //Note: this method creates a bug when it reaches the bottom of the screen
+  //
 }//End leftPaddle
 
 void leftPaddleKeyPressed() {
-  //Left Paddle: 'W' & 'S' Keys
-  if ( key=='W' || key=='w' ) yLeftPaddle -= leftPaddleSpeed ; //yRightPaddle=yRightPaddle-1, yRightPaddle--
-  if ( key=='S' || key=='s' ) yLeftPaddle += leftPaddleSpeed;
-}//End rightPaddlekeyPressed
+  //Left Paddle: 'W', 'S', 'D' Keys
+  //Note: two variables true is a Logical Conflict for Paddle Movement
+  if ( key=='W' || key=='w' ) {
+    leftPaddleUP=true;
+    leftPaddleDOWN=false;
+  }//End leftPaddleUP ; 
+  if ( key=='S' || key=='s' ) {
+    leftPaddleUP=false;
+    leftPaddleDOWN=true;
+  }//End leftPaddleDOWN
+  if ( key=='D' || key=='d' ) {
+    leftPaddleUP=false;
+    leftPaddleDOWN=false;
+  }//End leftPaddleDOWN
+  //
+}//End lefttPaddleKeyPressed
 
 void leftPaddleStart() {
   rect(xLeftPaddle, yLeftPaddle, widthPaddle, heightPaddle);

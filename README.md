@@ -11,7 +11,7 @@ Table of Contents
 ---
 
 https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments
-- Symmetrical Divisions of Pong, by rectangles and primitive data
+- Symmetrical Divisions of Pong, by rectangles and primitive data using Display Geometry
 - Drawing and Moving a Ball
   - Bouncing on all four sides
   - Ball moves in all directions
