@@ -11,6 +11,7 @@ Table of Contents
 ---
 
 https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments
+
 https://github.com/Intermediate-App-Dev-and-Deploy/Text-Prototyping
 
 To use these "snapshots"
