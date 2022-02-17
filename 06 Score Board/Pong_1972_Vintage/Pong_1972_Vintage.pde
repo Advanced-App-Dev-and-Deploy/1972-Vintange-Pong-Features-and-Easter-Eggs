@@ -15,6 +15,7 @@ void setup() {
   //Geomtery Communication and Variables for GUI Ratios
   size(700, 500); //Landscape-orientation, fullScreen(); //displayWidth, displayHeight
   population(); //One purpose of developer-written functions
+  textSetup();
   //
 }//End setup
 

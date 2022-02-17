@@ -1,5 +1,6 @@
 int xMove, yMove; //see population
-Boolean rigthGoalScore = false;
+int rightGoalScore=0, leftGoalScore=0;
+Boolean rightGoal=false, leftGoal=false;
 
 void ball() {
   ballStart();
@@ -18,8 +19,10 @@ void ballMove() {
   //Note: actually moving the ball should be the last lines of code
   if (xBall >= x1RightNet+(ballDiameter*1/2)) {
     xBall = width-ballDiameter*1/2;
+    rightGoal=true;
   } else if (xBall <= x1LeftNet-(ballDiameter*1/2)) {
     xBall = (width*0)+(ballDiameter*1/2);
+    leftGoal=true;
   } else {
     xBall += xMove;
     yBall += yMove;
