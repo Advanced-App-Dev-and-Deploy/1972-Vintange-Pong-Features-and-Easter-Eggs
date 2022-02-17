@@ -49,6 +49,8 @@ To use these "snapshots"
     - Press ??? to start another game
     - Option to change to one or two player (go back to first splash screen)
     - Press ??? to Quit the game
+- Redo all colours for Night Mode Option
+- Redo all code to "First one to 5" (or similar)
 
 ---
 
