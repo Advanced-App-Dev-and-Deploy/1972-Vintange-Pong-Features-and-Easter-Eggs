@@ -8,8 +8,7 @@ void scoreBoardSetup() {
 }//End scoreBoardSetup()
 //
 void scoreBoardDraw() {
-  scoreBoardRect();
-  println (leftGoal, rightGoal);
+  //scoreBoardRect();
   if ( leftGoal == true ) {
     leftGoalScore=1;
     textDraw(height, purpleInk, CENTER, CENTER, titleFont, str(leftGoalScore), xLeftScore, yLeftScore, widthScore, heightScore);
@@ -17,7 +16,6 @@ void scoreBoardDraw() {
     textDraw(height, purpleInk, CENTER, CENTER, titleFont, str(leftGoalScore), xLeftScore, yLeftScore, widthScore, heightScore);
   }
   if ( rightGoal == true ) rightGoalScore=1;
-  println(leftGoalScore, rightGoalScore);
   textDraw(height, purpleInk, CENTER, CENTER, titleFont, str(rightGoalScore), xRightScore, yRightScore, widthScore, heightScore);
 }//End scoreBoardDraw
 //

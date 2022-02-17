@@ -6,7 +6,7 @@ color whiteInk=#FFFFFF, blackInk=#000000;
 //
 void textSetup()
 {
-  println("Start of Console");
+  //println("Start of Console");
   //
   /*Fonts from OS
    String[] fontList = PFont.list(); //To list all fonts available on system
@@ -48,7 +48,6 @@ float textCalculator(float size, String string, float rectWidth)
     size = size * 0.99; //size-- will do pixels
     textSize(size);
   }//End WHILE;
-  size =  size * 0.2; //different fonts and string sizes need extra shrinking
-  println(size);
+  size =  size * 0.15; //different fonts and string sizes need extra shrinking
   return size; //Purpose of Calculator
 }//End textCalculator
