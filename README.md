@@ -54,7 +54,7 @@ To use these "snapshots"
   - set a boolean to automatically change the color based on the OS Time, using the crystal
   - Might need to look these up in Processing.org Reference
 - Redo all code to "First one to 5" (or similar)
--
+- Energy Transfer to the ball: when the paddle is moving and it hits the ball, it will transfer the amount of energy to the ball in that direction ... or subtract energy if the paddle is moving in the other direction of the ball (y-axis only)
 
 ---
 
