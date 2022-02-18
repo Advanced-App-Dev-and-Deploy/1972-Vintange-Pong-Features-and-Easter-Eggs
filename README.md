@@ -56,7 +56,9 @@ To use these "snapshots"
 - Redo all code to "First one to 5" (or similar)
 - Coding Ball Spin ...
   - Energy Transfer to the ball, y-axis: when the paddle is moving and it hits the ball, it will transfer the amount of energy to the ball in that direction ... or subtract energy if the paddle is moving in the other direction of the ball (y-axis only)
-  - Energy Transfer to the ball, x-axis: if the paddle is stopped, energy is transfered as if the paddle is moved directly at the opponent.
+  - Energy Transfer to the ball, x-axis: if the paddle is stopped, energy is transferred as if the paddle is moved directly at the opponent.
+  - Need to answer what happens when the paddle is at the top of the screen or the bottom of the screen, not moving
+    - Ideas: increase angle, increase both x&y dimensions
 -
 
 ---
