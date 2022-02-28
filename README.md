@@ -38,6 +38,13 @@ To use these "snapshots"
   - Casting Score related to "being stuck"
   - Get one side working, then the other
 - Splash Screen with basic text and instructions
+  - Executing the Program: Game will make a media inquiry and evaluate the display geometry of `fullScreen()`
+    - If Portrait, will not run but will request turning device to Landscape orientation
+    - If Landscape and does not fit wide-screen ratio, force a smaller wide screen rotation, for example
+      - Ratio: displayHeight / display Width
+      - If returns 0.80: Easter Egg about having a display that Pong was originally meant for
+      - If returns <0.2: wide screen ratio is too small to use Pong. Change this too,
+        - Shrink and center width measurement so the ratio is at minimum 0.5
   - Click on Window to activate (OS Feature)
     - "First one to 5 wins"
     - One Player or Two Player Button (changes instructions below)
@@ -51,7 +58,7 @@ To use these "snapshots"
     - Option to change to one or two player (go back to first splash screen)
     - Press ??? to Quit the game
 - Redo all colours for Night Mode Option
-  - set a boolean to automatically change the color based on the OS Time, using the crystal
+  - set a Boolean to automatically change the color based on the OS Time, using the crystal
   - Might need to look these up in Processing.org Reference
 - Redo all code to "First one to 5" (or similar)
 - Coding Ball Spin ...
@@ -59,7 +66,13 @@ To use these "snapshots"
   - Energy Transfer to the ball, x-axis: if the paddle is stopped, energy is transferred as if the paddle is moved directly at the opponent.
   - Need to answer what happens when the paddle is at the top of the screen or the bottom of the screen, not moving
     - Ideas: increase angle, increase both x&y dimensions
--
+- Create a Single Player Button (right paddle will follow the ball)
+- Create a Screen Saver Button (both paddles follow the ball), also able to test Easter Eggs easily
+- Exporting Pong (must use non-school computer or Stand-alone Machine)
+- Final Versions in GitHub
+
+**Pong Celebrations: Computers for Schools, CX, DevFacto, Melanie, Jayden, etc.**
+- Breakout Rooms with smaller groups
 
 ---
 
