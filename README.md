@@ -76,6 +76,12 @@ To use these "snapshots"
 
 ---
 
+Caution about Mr. Mercer's coding: Simple Algorithms and Bugs
+- No background is currently included
+- Scoreboard shows all scores
+
+---
+
 # Brainstorming Start
 - Change the speed of the ball based on the score of the game
 - Change the colour of the ball at a specific level/score
