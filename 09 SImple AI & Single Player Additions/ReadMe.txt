@@ -9,3 +9,9 @@ When a full Pong Game is finished ("state the first to score?"), how will the ga
 
 Final Versions of Procedural Pong in GitHub
 - Exporting Processing (note: will not work in an EPSchools Network)
+
+
+
+Ideas to make paddle follow ball
+- yPaddle = yBall
+- calcualte paddle y value based on formula
