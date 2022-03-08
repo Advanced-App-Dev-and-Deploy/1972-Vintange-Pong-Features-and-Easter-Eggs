@@ -69,7 +69,7 @@ To use these "snapshots"
 - Create a Single Player Button (right paddle will follow the ball)
 - Create a Screen Saver Button (both paddles follow the ball), also able to test Easter Eggs easily
 - Exporting Pong (must use non-school computer or Stand-alone Machine)
-- Final Versions in GitHub
+- Final Versions in GitHub (may need to ZIP the Export; may need to "drag & drop" files)
 
 **Pong Celebrations: Computers for Schools, CX, DevFacto, Melanie, Jayden, etc.**
 - Breakout Rooms with smaller groups
