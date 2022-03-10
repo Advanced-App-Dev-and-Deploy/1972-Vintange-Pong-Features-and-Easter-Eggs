@@ -8,6 +8,16 @@ Table of Contents
 - Standard Features and General Play, <a href="https://github.com/Advanced-App-Dev-and-Deploy/1972-Vintange-Pong-Features-and-Easter-Eggs#1972-vintage-standard-features-and-general-play-procedural-pong">Click Here</a>
 - Review Basic Introductory Processing-Java Code for building Pong Standard Features, <a href="">Click Here when available</a>
 
+Reminder about Creating Releases for Due Dates
+- Pong must be exported, saved in GitHub, and available for download
+- File / Export: exports Processing and Java files (called jar files) so the Processing and Java Installations and configuration are not required, automatically runs as if on your computer (after downloaded)
+- Must share the GitHub URL to find your final version
+
+Note for GitHub: to make a release, see "Releases" in your Repositories
+- Reminder: Create a TAG like BETA (press the ADD Button)
+- Reminder: Drag and Drop your files into BINARY
+- Alternatively, create a new Repository or Folder and Upload the exported file there.
+
 ---
 
 https://github.com/Intro-CS-App-Dev-and-Deploy/Overview#all-assignments
