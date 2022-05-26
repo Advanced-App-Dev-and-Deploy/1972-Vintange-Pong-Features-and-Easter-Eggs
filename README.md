@@ -123,3 +123,11 @@ Advanced
 - Scoreboard: feedback when get to a certain score (wins game)
 
 ---
+
+# To Include
+
+https://keanecreative.co.uk/news/article/10-of-the-coolest-google-easter-eggs
+
+https://thesassway.com/what-is-an-easter-egg-in-computer-science/
+
+---
